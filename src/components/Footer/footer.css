@@ -1,0 +1,141 @@
+.footer{
+
+    height:10vh;
+    width:100vw;
+    margin-top: 1vh;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.team{
+    width:20%;
+    height:100%;
+    background-color: aquamarine;
+
+}
+
+.queue{
+    width:25%;
+    height:100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+.queueButtonClick{
+    height:60%;
+    width:100%;
+    padding-top: 5px;    
+    
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.queueButton:hover{
+    text-decoration:none;
+   
+}
+
+
+#Contents1 {
+    background: red;
+    color: rgba(0, 0, 0, .8);
+    width:25vw;
+    height:6vh;
+    display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  #Contents2 {
+      border-top: 2px solid aquamarine ;
+      border-bottom: 2px solid aquamarine ;
+    color: rgba(0, 0, 0, .8);
+    text-align: center;
+     color:white;
+     display: flex;
+    width:25vw;
+    height:6vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    
+  #Content3 {
+    
+    color:black;
+    width:25vw;
+     
+    display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+     padding:3px;
+  }
+  label{
+      color:white;
+      font-size: 15px;
+  }
+
+
+
+  .stripe{
+      height:10px;
+      width:40px;
+  }
+  
+  .slide-up > div, .slide-down > div {
+    
+    transition: margin-left 0.5s ease-in-out;
+   
+  }
+  .slide-down > div {            
+    margin-left: 300%;
+   
+  } 
+  .slide-down2 > div {            
+    margin-left: -100%;   
+  } 
+
+  .slide-up2 >div, .slide-down2 > div{
+    
+    transition: margin-left 0.5s ease-in-out;
+  }
+  
+ 
+  .sliderContainer1{
+     display: inline-flex;
+     height: 40%;
+      width:100%; 
+     
+     margin-bottom: 5px;   
+     
+  }
+
+  .sliderContainer2{
+    display: inline-flex;
+    height: 60%;
+    width:100%; 
+ }
+  a:hover{
+    text-decoration: none;
+}
+
+#exit{
+    margin-left: 4px;
+    color: red;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

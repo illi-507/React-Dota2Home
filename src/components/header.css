@@ -1,0 +1,83 @@
+* {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.color-navbar{   
+    background-color:#2d3436;    
+    padding:0%;
+}
+.color-navbrand{
+    margin-left: 20px;
+    color:white;
+    font-size:"24px";
+    border:none;    
+}
+
+.color-settings{
+    color:white;
+    background-color: #2d3436;
+    border:none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.dota2-button-border-right{
+      height: 60px;
+      width: 10px;
+      border-right: 2px solid red;
+      -moz-transform: skew(-25deg);
+      -webkit-transform: skew(-25deg);
+      transform: skew(-25deg);   
+}
+
+.dota2-button-border-left{
+    height: 60px;
+    width: 32px;
+    border-left: 2px solid red;
+    -moz-transform: skew(25deg);
+    -webkit-transform: skew(25deg);
+    transform: skew(25deg);    
+}
+
+.separator{
+    height: 60px;
+    width: 20px;
+    border-right: 2px solid red;
+    -moz-transform: skew(-25deg);
+    -webkit-transform: skew(-25deg);
+    transform: skew(-25deg);   
+}
+
+.logo{
+    height: 50px;
+  
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+
+.power-off{
+    margin-left: 20px;
+    color:orange;
+    font-size: 20px;
+}
+
+
+.dropmessage{
+    background-color: #2d3436;
+    color:white;
+}
+.dropmessage:hover{
+    background-color:#1dd1a1;
+}
+
+.dropdownlogo {
+    height: 20px;
+    width: 20px; 
+   
+}
